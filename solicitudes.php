@@ -70,11 +70,11 @@
             <div class="dropdown">
             <button onclick="myFunction()" class="dropbtn">Info. General</button>
               <div id="myDropdown" class="dropdown-content">
-                <a href="index.php">Editar Perfil Cliente</a>
-                <a id="interCreate" href="crearIntermediario.php">Crear Intermedio</a>
-                <a id="interEdit" href="editarintermediarios.php">Editar Intermediario</a>
-                <a href="crearsucursal.php">Crear Sucursal</a>
-                <a href="documentacionGeneral.php">Documentacion General</a>
+                  <a href="index.php">Editar Perfil Cliente</a>
+                  <a id="interCreate" href="crearIntermediario.php">Crear Intermedio</a>
+                  <a id="interEdit" href="editarintermediarios.php">Editar Intermediario</a>
+                  <a id="sucuCrear" href="crearsucursal.php">Crear Sucursal</a>
+                  <a href="documentacionGeneral.php">Documentacion General</a>
               </div>
             </div>
             </li>
@@ -218,11 +218,6 @@
       </div>  
     </div>
     </body>   
-          <div style="background-color:00d0b7; margin: 0px; height: 50px;">          
-            </div>  
-            <div class="col-lg-1 col-offset-6 centered">
-              <img data-src="holder.js/100x100" alt="" />
-          </div>
           <script>
 /* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */

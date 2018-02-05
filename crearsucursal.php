@@ -66,9 +66,10 @@
               <button onclick="myFunction()" class="dropbtn">Info. General</button>
                 <div id="myDropdown" class="dropdown-content">
                   <a href="index.php">Editar Perfil Cliente</a>
-                  <a href="crearIntermediario.php">Crear Intermedio</a>
-                  <a href="editarintermediarios.php">Editar Intermediario</a>
-                  <a href="">Documentacion General</a>
+                  <a id="interCreate" href="crearIntermediario.php">Crear Intermedio</a>
+                  <a id="interEdit" href="editarintermediarios.php">Editar Intermediario</a>
+                  <a id="sucuCrear" href="crearsucursal.php">Crear Sucursal</a>
+                  <a href="documentacionGeneral.php">Documentacion General</a>
                 </div>
               </div>
               </li>
