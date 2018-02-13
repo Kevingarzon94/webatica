@@ -18,10 +18,10 @@
         async: false,
         success: function(msg) {
            result = msg;
-           document.getElementById("razon_social").value = msg[0].Razon_Social;
+           document.getElementById("razon_social").value = msg[0].NombreCompletoSAP;
            document.getElementById("nit_prov").value = msg[0].Nit;
            document.getElementById("email").value = msg[0].email;
-           document.getElementById("nombre_Cabecera").innerHTML = msg[0].Razon_Social;
+           document.getElementById("nombre_Cabecera").innerHTML = msg[0].NombreCompletoSAP;
            document.getElementById("contacto_emp").value = msg[0].phone;
 
            //document.getElementById("contacto_emp").style.display = "none"

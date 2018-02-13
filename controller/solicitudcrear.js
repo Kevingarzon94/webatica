@@ -93,7 +93,7 @@
     
         var that = this;
         var nit_emp = document.getElementById("nitEmp").value;   
-        var webMethod = "https://www.impeltechnology.com/rest/api/getPage?&sessionId="+sessionId+"&output=json&viewId=AmcTfamMRte_92bgSjIizA&filterName=R8151120&filterValue="+id;
+        var webMethod = "https://www.impeltechnology.com/rest/api/getPage?&sessionId="+sessionId+"&output=json&viewId=AmcTfamMRte_92bgSjIizA&filterName=R_Cliente_TP&filterValue="+id;
         
         $.ajax({
             type: 'GET',

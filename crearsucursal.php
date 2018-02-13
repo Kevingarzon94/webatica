@@ -77,9 +77,8 @@
                 <div class="dropdown">
               <button onclick="myFunction2()" class="dropbtn">Solicitudes</button>
                 <div id="myDropdown2" class="dropdown-content">
-                  <a href="#home">Home</a>
-                  <a href="#about">About</a>
-                  <a href="#contact">Contact</a>
+                  <a href="solicitudcrear.php">Crear Solicitud</a>
+                  <a href="solicitudes.php">Visualizar Solicitud</a>
                 </div>
               </div>
               </li>

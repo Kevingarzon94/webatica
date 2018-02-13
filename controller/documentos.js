@@ -40,21 +40,33 @@ function myOnLoad() {
     for (var i=0; i<array.length;i++) {
      var option = document.createElement("option");
      switch (array[i].id) {
-        case 8190533:
+        case 8449362:
+        option.text = "Certificado de Existencia y Rep. Legal";
+        break;
+        case 8449361:
         option.text = "Cedula Rep. Legal";
         break;
-        case 8190534:
-        option.text = "Camara de Comercio";
-        break;
-        case 8190535:
-        option.text = "Auto. Tratamiento de Datos";
+        case 8449365:
+        option.text = "Cer. Ingresos decreto 1070 2013";
         break;    
-        case 8190536:
+        case 8449364:
         option.text = "Cer. Bancaria menos 30 dias";
         break;   
-        case 8190532:
+        case 8449367:
+        option.text = "Estados Financieros (últimos 2 años a diciembre 31)";
+        break;
+        case 8449366:
+        option.text = "Ultima Declaración Renta del año inmediatamente anterior";
+        break;
+        case 8449363:
+        option.text = "Auto. Tratamiento de Datos";
+        break;
+        case 8449368:
+        option.text = "Certificacion Bancaria 1";
+        break;
+        case 8449360:
         option.text = "Rut";
-        break;   
+        break;
     } 
      option.value = array[i].id;
      select.add(option);
